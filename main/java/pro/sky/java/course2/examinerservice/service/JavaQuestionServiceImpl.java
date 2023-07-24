@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
-@Service
+@Service("javaQuestionService")
 public class JavaQuestionServiceImpl implements QuestionService {
     private Set<Question> questions = new HashSet<>();
 
